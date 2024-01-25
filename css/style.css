@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url('/img/fundos.jpg');
+    
+  } 
+  
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .logo-container img {
+    max-height: 100px; /* Defina a altura máxima da sua imagem de logo */
+  }
+
+  
+  .login-form {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+ .menu .login-form  .bt{
+    background-color: #226607;
+    color: #fff;
+    min-width: auto;
+    width: 97px;
+    border: solid 1px #333;
+    cursor: pointer;
+
+}
+
+.menu .login-form  .bt:hover{
+    background-color: #b5c01e;
+}
+
+  aside {
+    background-color: #eee;
+    height: 100vh;
+    width: 200px;
+    padding: 20px;
+    border: solid 1px #333;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  aside li a:hover {
+    background-color: #b5c01e;
+  }
+  
+  footer {
+    background-color: #226607;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  /*----- Formatação da Página de Cadastro-----*/
+
+  .main-content{
+    display: grid;
+    gap: 20px;
+    margin: 220px;
+  }
+  
+  .cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #eee;
+    margin: 2% auto;
+    width: 100%;
+    margin-top: -490px;
+    margin-bottom: auto;
+    border: solid 1px #333;
+
+  }
+
+  .cad {
+    width: 350px;
+    height: 260px;
+
+
+  }
+
+  .cad h1 {
+    font-size: 1.9rem;
+    text-align: center;
+    color: #226607;
+    font-weight: 500;
+  }
+
+  .cad input {
+    width: 250px;
+    height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1%;
+
+  }
+
+  .cad #b-cadastro {
+    width: 200px;
+    height: 30px;
+    padding: 1%;
+    background-color: #226607;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #333;
+  }
+
+  .cad #b-cadastro:hover {
+    background-color: #b5c01e;
+
+  }
+
+  /*Formatação da Área do Usuário*/
+
+  .barra_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #226607;
+    width: 95%;
+    margin: 1% auto;
+    padding: 1% 5%;
+    border-radius: 10px 10px 0px 0px;
+    border: solid 1px #333;
+
+  }
+
+  .barra a{
+    color:#fff
+  }
+
+  .usuario{
+    width: 101%;
+    height: 350px;
+    background-color: #d9dad9a6;
+    border: solid 1px #333;
+    margin: -2% auto;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .usuario h2{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #333;
+  }
+
+
+
